@@ -1,0 +1,5 @@
+
+//Colleague
+public interface Command {
+    void execute();
+}
