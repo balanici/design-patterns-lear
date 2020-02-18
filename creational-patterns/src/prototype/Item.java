@@ -1,4 +1,4 @@
-package Prototype;
+package prototype;
 
 public abstract class Item implements Cloneable{
     private String title;

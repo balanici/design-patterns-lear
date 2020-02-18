@@ -1,4 +1,4 @@
-package Prototype;
+package prototype;
 
 public class Movie extends Item {
     private String runtime;
