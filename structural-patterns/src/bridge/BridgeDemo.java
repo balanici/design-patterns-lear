@@ -12,6 +12,10 @@ public class BridgeDemo {
         Printer moviePrinter = new MoviePrinter(movie);
         String printedMaterial = moviePrinter.print(printFormatter);
 
+        Formatter htmlFormatter = new HtmlFormatter();
+        String htmlMaterial = moviePrinter.print(htmlFormatter);
+
         System.out.println(printedMaterial);
+        System.out.println(htmlMaterial);
     }
 }
